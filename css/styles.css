@@ -1,1 +1,190 @@
+/* -----elements----- */
+body {
+    text-align: center;
+}
 
+h3,h2{
+    font-weight: bolder;
+}
+
+p{
+    color: grey;
+}
+
+/* ---------Headings----------- */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+  
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title .container-fluid{
+    padding-top: 2%;
+}
+/* -----NavBar---- */
+
+.navbar{
+    padding-bottom: 4.5rem;
+    /* getting rid of those bootstrap padding from left and right */
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-brand{
+    font-size: 1.5em;
+    font-weight: bolder;
+} 
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* -------Title and  Phone Image------- */
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
+    /* z-index: 1; */
+}
+
+/* -------features section---------- */
+
+#features{
+    padding: 7% 15%; 
+    background-color: white;
+    position: relative;
+    /* z-index: 2;  refer angela yu "which one is on top pdf from resources about z index*/
+}
+
+.feature-title {
+    font-size: 1.75rem;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* -------testimonal sectionn--------- */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img{
+    width: 12%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* ---------press section----------- */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* --------pricing section-------- */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* .card{
+    background-color:#daaca6d2;
+} */
+
+/* ---------Call to Action -------- */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta h3{
+    font-size: 3.0rem;
+}
+
+/* -- Footer -- */
+
+#footer{
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* media query for changing iphone */
+
+@media (max-width:1120px){
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
